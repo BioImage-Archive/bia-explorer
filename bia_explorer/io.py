@@ -1,5 +1,7 @@
+from io import BytesIO
 from typing import List
 
+import requests
 from pydantic import BaseModel
 from imageio import imread_v2
 from PIL import Image
@@ -17,12 +19,26 @@ def is_image(file):
     return file.path.suffix in IMAGE_EXTS
 
 
+def load_pil_image_from_uri(image_uri):
+
+    r = requests.get(image_uri)
+    assert r.status_code == 200
+
+    im = Image.open(BytesIO(r.content))
+
+    return im
+
+
 class BIAImage(BaseModel):
     uri: str
         
     def show(self):
         imarray = imread_v2(self.uri)
         return Image.fromarray(imarray)
+
+    def show_pil(self):
+        return load_pil_image_from_uri(self.uri)
+        
         
 
 class BIAStudy(BaseModel):
