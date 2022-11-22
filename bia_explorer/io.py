@@ -12,7 +12,7 @@ from bia_explorer.biostudies import load_submission, find_file_lists_in_submissi
 FILE_TEMPLATE = "https://www.ebi.ac.uk/biostudies/files/{accession_id}/{file_relpath}"
 
 
-IMAGE_EXTS = ['.png']
+IMAGE_EXTS = ['.png','.jpg','.jpeg','.tif','.tiff']
 
 
 def is_image(file):
