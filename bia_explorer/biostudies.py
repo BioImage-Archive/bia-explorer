@@ -37,6 +37,13 @@ class Attribute(BaseModel):
         return tsv_rep
 
 
+class File(BaseModel):
+    path: pathlib.Path
+    size: int
+    attributes: List[Attribute] = []
+
+
+
 class Link(BaseModel):
     url: str
     attributes: List[Attribute] = []
@@ -53,8 +60,10 @@ class Section(BaseModel):
     type: str
     accno: Optional[str]
     attributes: List[Attribute] = []
-    subsections: List["Section"] = []
+    # subsections: List["Section"] = []
+    subsections: List[Union["Section", List["Section"]]] = []
     links: List[Link] = []
+    files: List[Union[File, List[File]]] = []
 
     def as_tsv(self, parent_accno=None):
         tsv_rep = "\n"
@@ -96,11 +105,6 @@ class Submission(BaseModel):
 
 # File List
 
-
-class File(BaseModel):
-    path: pathlib.Path
-    size: int
-    attributes: List[Attribute] = []
 
 
 # API search classes
@@ -155,8 +159,9 @@ def find_file_lists_in_section(section, flists) -> list:
     if "File List" in attr_dict:
         flists.append(attr_dict["File List"])
 
-    for subsection in section.subsections:
-        find_file_lists_in_section(subsection, flists)
+    for subsection_like in section.subsections:
+        if isinstance(subsection_like, Section):
+            find_file_lists_in_section(subsection_like, flists)
 
     return flists
 
@@ -179,3 +184,33 @@ def flist_from_flist_fname(accession_id: str, flist_fname: str):
     fl = parse_raw_as(List[File], r.content)
 
     return fl
+
+
+def find_files_in_submission_file_lists(submission: Submission) -> List[File]:
+
+    file_list_fnames = find_file_lists_in_submission(submission)
+    file_lists = [flist_from_flist_fname(submission.accno, fname) for fname in file_list_fnames]
+
+    return sum(file_lists, [])
+
+
+def find_files_in_submission(submission: Submission) -> List[File]:
+    """Find all of the files in a submission, both attached directly to
+    the submission and as file lists."""
+    
+    all_files = find_files_in_submission_file_lists(submission)
+    
+    def descend_and_find_files(section, files_list=[]):
+        
+        for file in section.files:
+            if isinstance(file, List):
+                files_list += file
+            else:
+                files_list.append(file)
+            
+        for subsection in section.subsections:
+            descend_and_find_files(subsection, files_list)
+            
+    descend_and_find_files(submission.section, all_files)
+    
+    return all_files
