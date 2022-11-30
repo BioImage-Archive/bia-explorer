@@ -43,6 +43,8 @@ class BIAImage(BaseModel):
 
 class BIAStudy(BaseModel):
     images: List[BIAImage]
+    sizes: List
+    image_files: List
         
         
 def load_bia_study(accession_id: str) -> BIAStudy:
@@ -63,5 +65,7 @@ def load_bia_study(accession_id: str) -> BIAStudy:
         BIAImage(uri=get_image_uri(file))
         for file in image_files
     ]
+
+    sizes = [file.size for file in image_files]
     
-    return BIAStudy(images=images)
+    return BIAStudy(images=images, sizes=sizes, image_files=image_files)
