@@ -1,7 +1,6 @@
 from io import BytesIO
 from typing import List
 
-import pathlib
 import requests
 from pydantic import BaseModel
 from PIL import Image
@@ -31,8 +30,6 @@ def load_pil_image_from_uri(image_uri):
 
 class BIAImage(BaseModel):
     uri: str
-    size: int
-    fpath: pathlib.Path
         
     def show(self):
         return self.show_pil()
@@ -44,7 +41,8 @@ class BIAImage(BaseModel):
 
 class BIAStudy(BaseModel):
     images: List[BIAImage]
-
+    sizes: List
+    image_files: List
         
         
 def load_bia_study(accession_id: str) -> BIAStudy:
@@ -62,10 +60,10 @@ def load_bia_study(accession_id: str) -> BIAStudy:
         return FILE_TEMPLATE.format(accession_id=accession_id, file_relpath=file.path)
     
     images = [
-        BIAImage(uri=get_image_uri(file), size=file.size, fpath=file.path)
+        BIAImage(uri=get_image_uri(file))
         for file in image_files
     ]
 
-    # sizes = [file.size for file in image_files]
+    sizes = [file.size for file in image_files]
     
-    return BIAStudy(images=images)
+    return BIAStudy(images=images, sizes=sizes, image_files=image_files)
