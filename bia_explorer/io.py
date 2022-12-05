@@ -3,7 +3,6 @@ from typing import List
 
 import requests
 from pydantic import BaseModel
-from imageio import imread_v2
 from PIL import Image
 
 from bia_explorer.biostudies import load_submission, find_files_in_submission
@@ -33,8 +32,7 @@ class BIAImage(BaseModel):
     uri: str
         
     def show(self):
-        imarray = imread_v2(self.uri)
-        return Image.fromarray(imarray)
+        return self.show_pil()
 
     def show_pil(self):
         return load_pil_image_from_uri(self.uri)
