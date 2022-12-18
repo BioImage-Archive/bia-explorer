@@ -7,6 +7,7 @@ from pydantic import BaseModel
 from PIL import Image
 
 from bia_explorer.biostudies import load_submission, find_files_in_submission
+from bia_explorer.models import FullBIAStudy
 
 
 FILE_TEMPLATE = "https://www.ebi.ac.uk/biostudies/files/{accession_id}/{file_relpath}"
@@ -67,3 +68,12 @@ def load_bia_study(accession_id: str) -> BIAStudy:
     ]
     
     return BIAStudy(images=images)
+
+
+def load_full_bia_study(accession_id: str) -> FullBIAStudy:
+
+    uri = f"https://raw.githubusercontent.com/BioImage-Archive/bia-explorer/main/data/{accession_id}.json"
+
+    r = requests.get(uri)
+
+    return FullBIAStudy.parse_raw(r.content)

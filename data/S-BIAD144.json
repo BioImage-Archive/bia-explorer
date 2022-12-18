@@ -1,0 +1,5692 @@
+{
+  "accession_id": "S-BIAD144",
+  "title": "The glucosylceramide synthase inhibitor PDMP causes lyso-somal lipid accumulation and mTOR inactivation",
+  "description": "We investigated subcellular sphingolipid distribution using a functionalized sphingosine analogue (pacSph) by confocal microscopy in control, PDMP and NB-DNJ (Miglustat) treated WT and SGPL1 knock-out cells (experimentA; channel 1: pacSph, channel 2: Lamp1). We studied lysosomal sphingolipid (pacSph) export using pulse-chase experiments in control and PDMP treated SGPL1 knock-out cells (experimentB; channel 1: pacSph, channel 2: Lamp1). We analyzed other lipids such as LBPA (immunofluorescence staining) and cholesterol (filipin staining) at the lysosome in control, PDMP and NB-DNJ (Miglustat) treated WT cells by microscopy (experimentC). We investigated a timeline of lipid accumulating effects arising from PDMP treatment by confocal microscopy. Therefore, we investigated LBPA (immunofluorescence staining in WT cells; channel 1: LBPA, channel 2: Lamp1), sphingolipids (using pacSph in SGPL1 knock-out cells; channel 1: pacSph, channel 2: Lamp1) and cholesterol (filipin staining in WT cells; channel 1: Filipin, channel 2: Lamp1) (experimentD). We analysed the timeline of mTOR (channel 1: mTOR, channel 2: Lamp1) and TFEB (channel 1: DAPI, channel 2: TFEB) subcellular translocation arising from PDMP treatment in WT cells by immunofluorescence microscopy (experimentE).",
+  "authors": [],
+  "organism": "Homo sapiens (human)",
+  "release_date": "2021-05-31",
+  "imaging_type": "confocal fluorescence microscopy",
+  "attributes": {
+    "study_type": "Protein localisation"
+  },
+  "example_image_uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144-example.png",
+  "images": {
+    "IM1": {
+      "id": "IM1",
+      "original_relpath": "experiments/experimentA_01_WT_PDMP.czi",
+      "dimensions": "(1, 2, 1, 512, 512)",
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM1",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_01_WT_PDMP.czi",
+          "size": 1577024,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM1",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-zarr-test/S-BIAD144/IM1.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling",
+        "SizeC": "2",
+        "SizeZ": "1",
+        "SignificantBits": "8",
+        "DimensionOrder": "XYZCT",
+        "PhysicalSizeYUnit": "\u00b5m",
+        "PhysicalSizeXUnit": "\u00b5m",
+        "PhysicalSizeX": "0.22007964065255714",
+        "BigEndian": "true",
+        "Interleaved": "false",
+        "PhysicalSizeY": "0.22007964065255714",
+        "SizeY": "512",
+        "ID": "Pixels:0",
+        "Type": "uint8",
+        "SizeT": "1",
+        "SizeX": "512"
+      }
+    },
+    "IM2": {
+      "id": "IM2",
+      "original_relpath": "experiments/experimentA_02_WT_PDMP.czi",
+      "dimensions": "(1, 2, 1, 512, 512)",
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM2",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_02_WT_PDMP.czi",
+          "size": 1572768,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM2",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM2.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM3": {
+      "id": "IM3",
+      "original_relpath": "experiments/experimentA_03_WT_PDMP.czi",
+      "dimensions": "(1, 2, 1, 512, 512)",
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM3",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_03_WT_PDMP.czi",
+          "size": 1575360,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM3",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM3/IM3.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM4": {
+      "id": "IM4",
+      "original_relpath": "experiments/experimentA_04_WT_PDMP.czi",
+      "dimensions": "(1, 2, 1, 512, 512)",
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM4",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_04_WT_PDMP.czi",
+          "size": 1580960,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM4",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM4/IM4.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM5": {
+      "id": "IM5",
+      "original_relpath": "experiments/experimentA_05_WT_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM5",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_05_WT_PDMP.czi",
+          "size": 1576352,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM6": {
+      "id": "IM6",
+      "original_relpath": "experiments/experimentA_06_WT_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM6",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_06_WT_mock.czi",
+          "size": 1579040,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM7": {
+      "id": "IM7",
+      "original_relpath": "experiments/experimentA_07_WT_mock.czi",
+      "dimensions": "(1, 2, 1, 512, 512)",
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM7",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_07_WT_mock.czi",
+          "size": 1575904,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM7",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM7/IM7.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM8": {
+      "id": "IM8",
+      "original_relpath": "experiments/experimentA_08_WT_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM8",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_08_WT_mock.czi",
+          "size": 1575552,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM9": {
+      "id": "IM9",
+      "original_relpath": "experiments/experimentA_09_WT_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM9",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_09_WT_Miglustat.czi",
+          "size": 1571328,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM10": {
+      "id": "IM10",
+      "original_relpath": "experiments/experimentA_10_WT_Miglustat.czi",
+      "dimensions": "(1, 2, 1, 512, 512)",
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM10",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_10_WT_Miglustat.czi",
+          "size": 1576960,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM10",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM10/IM10.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM11": {
+      "id": "IM11",
+      "original_relpath": "experiments/experimentA_11_WT_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM11",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_11_WT_Miglustat.czi",
+          "size": 1578368,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "WT",
+        "labelling": "pacSph",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM12": {
+      "id": "IM12",
+      "original_relpath": "experiments/experimentA_12_SGPL1_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM12",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_12_SGPL1_PDMP.czi",
+          "size": 1570944,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM13": {
+      "id": "IM13",
+      "original_relpath": "experiments/experimentA_13_SGPL1_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM13",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_13_SGPL1_PDMP.czi",
+          "size": 1573344,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM14": {
+      "id": "IM14",
+      "original_relpath": "experiments/experimentA_14_SGPL1_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM14",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_14_SGPL1_PDMP.czi",
+          "size": 1572000,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM15": {
+      "id": "IM15",
+      "original_relpath": "experiments/experimentA_15_SGPL1_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM15",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_15_SGPL1_PDMP.czi",
+          "size": 1570144,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM16": {
+      "id": "IM16",
+      "original_relpath": "experiments/experimentA_16_SGPL1_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM16",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_16_SGPL1_mock.czi",
+          "size": 1572224,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM17": {
+      "id": "IM17",
+      "original_relpath": "experiments/experimentA_17_SGPL1_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM17",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_17_SGPL1_mock.czi",
+          "size": 1577056,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM18": {
+      "id": "IM18",
+      "original_relpath": "experiments/experimentA_18_SGPL1_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM18",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_18_SGPL1_mock.czi",
+          "size": 1575648,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM19": {
+      "id": "IM19",
+      "original_relpath": "experiments/experimentA_19_SGPL1_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM19",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_19_SGPL1_Miglustat.czi",
+          "size": 1577120,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM20": {
+      "id": "IM20",
+      "original_relpath": "experiments/experimentA_20_SGPL1_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM20",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_20_SGPL1_Miglustat.czi",
+          "size": 1576064,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM20",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM20/IM20.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM21": {
+      "id": "IM21",
+      "original_relpath": "experiments/experimentA_21_SGPL1_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM21",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentA_21_SGPL1_Miglustat.czi",
+          "size": 1577632,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "continuous labelling"
+      }
+    },
+    "IM22": {
+      "id": "IM22",
+      "original_relpath": "experiments/experimentB_01_PDMP_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM22",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_01_PDMP_0min.czi",
+          "size": 1808864,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM23": {
+      "id": "IM23",
+      "original_relpath": "experiments/experimentB_02_PDMP_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM23",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_02_PDMP_0min.czi",
+          "size": 1805664,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM24": {
+      "id": "IM24",
+      "original_relpath": "experiments/experimentB_03_PDMP_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM24",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_03_PDMP_0min.czi",
+          "size": 1806144,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM25": {
+      "id": "IM25",
+      "original_relpath": "experiments/experimentB_04_PDMP_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM25",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_04_PDMP_0min.czi",
+          "size": 1805344,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM26": {
+      "id": "IM26",
+      "original_relpath": "experiments/experimentB_05_PDMP_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM26",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_05_PDMP_0min.czi",
+          "size": 1806112,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM27": {
+      "id": "IM27",
+      "original_relpath": "experiments/experimentB_06_PDMP_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM27",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_06_PDMP_5min.czi",
+          "size": 1807808,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM28": {
+      "id": "IM28",
+      "original_relpath": "experiments/experimentB_07_PDMP_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM28",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_07_PDMP_5min.czi",
+          "size": 1804192,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM29": {
+      "id": "IM29",
+      "original_relpath": "experiments/experimentB_08_PDMP_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM29",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_08_PDMP_5min.czi",
+          "size": 1806368,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM30": {
+      "id": "IM30",
+      "original_relpath": "experiments/experimentB_09_PDMP_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM30",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_09_PDMP_5min.czi",
+          "size": 1805248,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM31": {
+      "id": "IM31",
+      "original_relpath": "experiments/experimentB_10_PDMP_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM31",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_10_PDMP_5min.czi",
+          "size": 1802976,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM32": {
+      "id": "IM32",
+      "original_relpath": "experiments/experimentB_11_PDMP_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM32",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_11_PDMP_15min.czi",
+          "size": 1808416,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM33": {
+      "id": "IM33",
+      "original_relpath": "experiments/experimentB_12_PDMP_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM33",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_12_PDMP_15min.czi",
+          "size": 1807584,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM34": {
+      "id": "IM34",
+      "original_relpath": "experiments/experimentB_13_PDMP_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM34",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_13_PDMP_15min.czi",
+          "size": 1807776,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM35": {
+      "id": "IM35",
+      "original_relpath": "experiments/experimentB_14_PDMP_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM35",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_14_PDMP_15min.czi",
+          "size": 1804896,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM36": {
+      "id": "IM36",
+      "original_relpath": "experiments/experimentB_15_PDMP_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM36",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_15_PDMP_15min.czi",
+          "size": 1803616,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM37": {
+      "id": "IM37",
+      "original_relpath": "experiments/experimentB_16_PDMP_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM37",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_16_PDMP_30min.czi",
+          "size": 1805984,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM38": {
+      "id": "IM38",
+      "original_relpath": "experiments/experimentB_17_PDMP_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM38",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_17_PDMP_30min.czi",
+          "size": 1801664,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM39": {
+      "id": "IM39",
+      "original_relpath": "experiments/experimentB_18_PDMP_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM39",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_18_PDMP_30min.czi",
+          "size": 1807488,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM40": {
+      "id": "IM40",
+      "original_relpath": "experiments/experimentB_19_PDMP_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM40",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_19_PDMP_30min.czi",
+          "size": 1804800,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM41": {
+      "id": "IM41",
+      "original_relpath": "experiments/experimentB_20_PDMP_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM41",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_20_PDMP_30min.czi",
+          "size": 1803424,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM42": {
+      "id": "IM42",
+      "original_relpath": "experiments/experimentB_21_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM42",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_21_0min.czi",
+          "size": 1802048,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM43": {
+      "id": "IM43",
+      "original_relpath": "experiments/experimentB_22_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM43",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_22_0min.czi",
+          "size": 1803488,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM44": {
+      "id": "IM44",
+      "original_relpath": "experiments/experimentB_23_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM44",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_23_0min.czi",
+          "size": 1806144,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM45": {
+      "id": "IM45",
+      "original_relpath": "experiments/experimentB_24_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM45",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_24_0min.czi",
+          "size": 1808288,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM46": {
+      "id": "IM46",
+      "original_relpath": "experiments/experimentB_25_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM46",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_25_0min.czi",
+          "size": 1806880,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 min"
+      }
+    },
+    "IM47": {
+      "id": "IM47",
+      "original_relpath": "experiments/experimentB_26_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM47",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_26_5min.czi",
+          "size": 1806272,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM48": {
+      "id": "IM48",
+      "original_relpath": "experiments/experimentB_27_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM48",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_27_5min.czi",
+          "size": 1802624,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM49": {
+      "id": "IM49",
+      "original_relpath": "experiments/experimentB_28_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM49",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_28_5min.czi",
+          "size": 1805280,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM50": {
+      "id": "IM50",
+      "original_relpath": "experiments/experimentB_29_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM50",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_29_5min.czi",
+          "size": 1810400,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM51": {
+      "id": "IM51",
+      "original_relpath": "experiments/experimentB_30_5min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM51",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_30_5min.czi",
+          "size": 1806496,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "5 min"
+      }
+    },
+    "IM52": {
+      "id": "IM52",
+      "original_relpath": "experiments/experimentB_31_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM52",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_31_15min.czi",
+          "size": 1804640,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM53": {
+      "id": "IM53",
+      "original_relpath": "experiments/experimentB_32_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM53",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_32_15min.czi",
+          "size": 1811552,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM54": {
+      "id": "IM54",
+      "original_relpath": "experiments/experimentB_33_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM54",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_33_15min.czi",
+          "size": 1807488,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM55": {
+      "id": "IM55",
+      "original_relpath": "experiments/experimentB_34_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM55",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_34_15min.czi",
+          "size": 1807104,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM56": {
+      "id": "IM56",
+      "original_relpath": "experiments/experimentB_35_15min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM56",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_35_15min.czi",
+          "size": 1807488,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "15 min"
+      }
+    },
+    "IM57": {
+      "id": "IM57",
+      "original_relpath": "experiments/experimentB_36_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM57",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_36_30min.czi",
+          "size": 1809088,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM58": {
+      "id": "IM58",
+      "original_relpath": "experiments/experimentB_37_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM58",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_37_30min.czi",
+          "size": 1804800,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM59": {
+      "id": "IM59",
+      "original_relpath": "experiments/experimentB_38_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM59",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_38_30min.czi",
+          "size": 1807776,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM60": {
+      "id": "IM60",
+      "original_relpath": "experiments/experimentB_39_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM60",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_39_30min.czi",
+          "size": 1804800,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM61": {
+      "id": "IM61",
+      "original_relpath": "experiments/experimentB_40_30min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM61",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentB_40_30min.czi",
+          "size": 1796160,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "click chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "30 min"
+      }
+    },
+    "IM62": {
+      "id": "IM62",
+      "original_relpath": "experiments/experimentC_Cholesterol_02_ctrl.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM62",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_02_ctrl.czi",
+          "size": 1533248,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment (ctrl)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM63": {
+      "id": "IM63",
+      "original_relpath": "experiments/experimentC_Cholesterol_03_ctrl.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM63",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_03_ctrl.czi",
+          "size": 1534080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment (ctrl)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM64": {
+      "id": "IM64",
+      "original_relpath": "experiments/experimentC_Cholesterol_04_ctrl.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM64",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_04_ctrl.czi",
+          "size": 1533600,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment (ctrl)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM65": {
+      "id": "IM65",
+      "original_relpath": "experiments/experimentC_Cholesterol_05_ctrl.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM65",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_05_ctrl.czi",
+          "size": 1531456,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment (ctrl)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM66": {
+      "id": "IM66",
+      "original_relpath": "experiments/experimentC_Cholesterol_07_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM66",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_07_PDMP.czi",
+          "size": 1534912,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM67": {
+      "id": "IM67",
+      "original_relpath": "experiments/experimentC_Cholesterol_08_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM67",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_08_PDMP.czi",
+          "size": 1533088,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM68": {
+      "id": "IM68",
+      "original_relpath": "experiments/experimentC_Cholesterol_09_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM68",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_09_PDMP.czi",
+          "size": 1535520,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM69": {
+      "id": "IM69",
+      "original_relpath": "experiments/experimentC_Cholesterol_10_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM69",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_10_PDMP.czi",
+          "size": 1538272,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM70": {
+      "id": "IM70",
+      "original_relpath": "experiments/experimentC_Cholesterol_13_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM70",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_13_Miglustat.czi",
+          "size": 1534912,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM71": {
+      "id": "IM71",
+      "original_relpath": "experiments/experimentC_Cholesterol_14_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM71",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_14_Miglustat.czi",
+          "size": 1533696,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM72": {
+      "id": "IM72",
+      "original_relpath": "experiments/experimentC_Cholesterol_15_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM72",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_15_Miglustat.czi",
+          "size": 1531424,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM73": {
+      "id": "IM73",
+      "original_relpath": "experiments/experimentC_Cholesterol_16_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM73",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_Cholesterol_16_Miglustat.czi",
+          "size": 1531328,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "Filipin",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM74": {
+      "id": "IM74",
+      "original_relpath": "experiments/experimentC_LBPA_01_WT_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM74",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_01_WT_mock.czi",
+          "size": 2141824,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM75": {
+      "id": "IM75",
+      "original_relpath": "experiments/experimentC_LBPA_02_WT_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM75",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_02_WT_mock.czi",
+          "size": 2158048,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM76": {
+      "id": "IM76",
+      "original_relpath": "experiments/experimentC_LBPA_03_WT_mock.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM76",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_03_WT_mock.czi",
+          "size": 2159424,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment (mock)",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM77": {
+      "id": "IM77",
+      "original_relpath": "experiments/experimentC_LBPA_04_WT_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM77",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_04_WT_PDMP.czi",
+          "size": 2159456,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM78": {
+      "id": "IM78",
+      "original_relpath": "experiments/experimentC_LBPA_05_WT_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM78",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_05_WT_PDMP.czi",
+          "size": 2158912,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM79": {
+      "id": "IM79",
+      "original_relpath": "experiments/experimentC_LBPA_06_WT_PDMP.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM79",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_06_WT_PDMP.czi",
+          "size": 2158912,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM80": {
+      "id": "IM80",
+      "original_relpath": "experiments/experimentC_LBPA_07_WT_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM80",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_07_WT_Miglustat.czi",
+          "size": 2161728,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM81": {
+      "id": "IM81",
+      "original_relpath": "experiments/experimentC_LBPA_08_WT_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM81",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_08_WT_Miglustat.czi",
+          "size": 2157408,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM82": {
+      "id": "IM82",
+      "original_relpath": "experiments/experimentC_LBPA_09_WT_Miglustat.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM82",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentC_LBPA_09_WT_Miglustat.czi",
+          "size": 2156128,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "50 \u00b5M NB-DNJ (Miglustat)",
+        "Channel 1": "LBPA",
+        "Channel 2": "no channel 2",
+        "timepoint": "no timepoint"
+      }
+    },
+    "IM83": {
+      "id": "IM83",
+      "original_relpath": "experiments/experimentD_Cholesterol_01_WT_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM83",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_01_WT_22h.czi",
+          "size": 3193184,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM84": {
+      "id": "IM84",
+      "original_relpath": "experiments/experimentD_Cholesterol_02_WT_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM84",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_02_WT_22h.czi",
+          "size": 3194528,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM85": {
+      "id": "IM85",
+      "original_relpath": "experiments/experimentD_Cholesterol_03_WT_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM85",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_03_WT_22h.czi",
+          "size": 3188224,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM86": {
+      "id": "IM86",
+      "original_relpath": "experiments/experimentD_Cholesterol_04_WT_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM86",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_04_WT_22h.czi",
+          "size": 3192992,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM87": {
+      "id": "IM87",
+      "original_relpath": "experiments/experimentD_Cholesterol_05_WT_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM87",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_05_WT_22h.czi",
+          "size": 3192768,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM88": {
+      "id": "IM88",
+      "original_relpath": "experiments/experimentD_Cholesterol_06_WT_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM88",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_06_WT_6h.czi",
+          "size": 3189184,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM89": {
+      "id": "IM89",
+      "original_relpath": "experiments/experimentD_Cholesterol_07_WT_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM89",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_07_WT_6h.czi",
+          "size": 3187712,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM90": {
+      "id": "IM90",
+      "original_relpath": "experiments/experimentD_Cholesterol_08_WT_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM90",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_08_WT_6h.czi",
+          "size": 3186816,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM91": {
+      "id": "IM91",
+      "original_relpath": "experiments/experimentD_Cholesterol_09_WT_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM91",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_09_WT_6h.czi",
+          "size": 3187040,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM92": {
+      "id": "IM92",
+      "original_relpath": "experiments/experimentD_Cholesterol_10_WT_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM92",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_10_WT_6h.czi",
+          "size": 3186784,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM93": {
+      "id": "IM93",
+      "original_relpath": "experiments/experimentD_Cholesterol_11_WT_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM93",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_11_WT_4h.czi",
+          "size": 3183424,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM94": {
+      "id": "IM94",
+      "original_relpath": "experiments/experimentD_Cholesterol_12_WT_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM94",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_12_WT_4h.czi",
+          "size": 3190752,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM95": {
+      "id": "IM95",
+      "original_relpath": "experiments/experimentD_Cholesterol_13_WT_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM95",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_13_WT_4h.czi",
+          "size": 3188128,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM96": {
+      "id": "IM96",
+      "original_relpath": "experiments/experimentD_Cholesterol_14_WT_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM96",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_14_WT_4h.czi",
+          "size": 3187968,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM97": {
+      "id": "IM97",
+      "original_relpath": "experiments/experimentD_Cholesterol_15_WT_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM97",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_15_WT_4h.czi",
+          "size": 3187584,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM98": {
+      "id": "IM98",
+      "original_relpath": "experiments/experimentD_Cholesterol_16_WT_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM98",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_16_WT_2h.czi",
+          "size": 3190080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM99": {
+      "id": "IM99",
+      "original_relpath": "experiments/experimentD_Cholesterol_17_WT_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM99",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_17_WT_2h.czi",
+          "size": 3189344,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM100": {
+      "id": "IM100",
+      "original_relpath": "experiments/experimentD_Cholesterol_18_WT_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM100",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_18_WT_2h.czi",
+          "size": 3187360,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM101": {
+      "id": "IM101",
+      "original_relpath": "experiments/experimentD_Cholesterol_19_WT_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM101",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_19_WT_2h.czi",
+          "size": 3187904,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM102": {
+      "id": "IM102",
+      "original_relpath": "experiments/experimentD_Cholesterol_20_WT_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM102",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_20_WT_2h.czi",
+          "size": 3186560,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM103": {
+      "id": "IM103",
+      "original_relpath": "experiments/experimentD_Cholesterol_21_WT_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM103",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_21_WT_1h.czi",
+          "size": 3190880,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM104": {
+      "id": "IM104",
+      "original_relpath": "experiments/experimentD_Cholesterol_22_WT_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM104",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_22_WT_1h.czi",
+          "size": 3186368,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM105": {
+      "id": "IM105",
+      "original_relpath": "experiments/experimentD_Cholesterol_23_WT_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM105",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_23_WT_1h.czi",
+          "size": 3184736,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM106": {
+      "id": "IM106",
+      "original_relpath": "experiments/experimentD_Cholesterol_24_WT_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM106",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_24_WT_1h.czi",
+          "size": 3186656,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM107": {
+      "id": "IM107",
+      "original_relpath": "experiments/experimentD_Cholesterol_25_WT_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM107",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_25_WT_1h.czi",
+          "size": 3190080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM108": {
+      "id": "IM108",
+      "original_relpath": "experiments/experimentD_Cholesterol_26_WT_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM108",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_26_WT_0h.czi",
+          "size": 3187616,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM109": {
+      "id": "IM109",
+      "original_relpath": "experiments/experimentD_Cholesterol_27_WT_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM109",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_27_WT_0h.czi",
+          "size": 3191008,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM110": {
+      "id": "IM110",
+      "original_relpath": "experiments/experimentD_Cholesterol_28_WT_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM110",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_28_WT_0h.czi",
+          "size": 3190208,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM111": {
+      "id": "IM111",
+      "original_relpath": "experiments/experimentD_Cholesterol_29_WT_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM111",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_29_WT_0h.czi",
+          "size": 3186944,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM112": {
+      "id": "IM112",
+      "original_relpath": "experiments/experimentD_Cholesterol_30_WT_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM112",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_Cholesterol_30_WT_0h.czi",
+          "size": 3185856,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "filipin staining",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "Filipin",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM113": {
+      "id": "IM113",
+      "original_relpath": "experiments/experimentD_LBPA_01_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM113",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_01_22h.czi",
+          "size": 1731872,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM114": {
+      "id": "IM114",
+      "original_relpath": "experiments/experimentD_LBPA_02_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM114",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_02_22h.czi",
+          "size": 1734688,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM115": {
+      "id": "IM115",
+      "original_relpath": "experiments/experimentD_LBPA_03_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM115",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_03_22h.czi",
+          "size": 1736544,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM116": {
+      "id": "IM116",
+      "original_relpath": "experiments/experimentD_LBPA_04_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM116",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_04_22h.czi",
+          "size": 1733408,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM117": {
+      "id": "IM117",
+      "original_relpath": "experiments/experimentD_LBPA_05_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM117",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_05_22h.czi",
+          "size": 1732160,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM118": {
+      "id": "IM118",
+      "original_relpath": "experiments/experimentD_LBPA_06_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM118",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_06_6h.czi",
+          "size": 1732160,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM119": {
+      "id": "IM119",
+      "original_relpath": "experiments/experimentD_LBPA_07_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM119",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_07_6h.czi",
+          "size": 1730080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM120": {
+      "id": "IM120",
+      "original_relpath": "experiments/experimentD_LBPA_08_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM120",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_08_6h.czi",
+          "size": 1734560,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM121": {
+      "id": "IM121",
+      "original_relpath": "experiments/experimentD_LBPA_09_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM121",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_09_6h.czi",
+          "size": 1729344,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM122": {
+      "id": "IM122",
+      "original_relpath": "experiments/experimentD_LBPA_10_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM122",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_10_6h.czi",
+          "size": 1729536,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM123": {
+      "id": "IM123",
+      "original_relpath": "experiments/experimentD_LBPA_11_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM123",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_11_4h.czi",
+          "size": 1734336,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM124": {
+      "id": "IM124",
+      "original_relpath": "experiments/experimentD_LBPA_12_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM124",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_12_4h.czi",
+          "size": 1737248,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM125": {
+      "id": "IM125",
+      "original_relpath": "experiments/experimentD_LBPA_13_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM125",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_13_4h.czi",
+          "size": 1730720,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM126": {
+      "id": "IM126",
+      "original_relpath": "experiments/experimentD_LBPA_14_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM126",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_14_4h.czi",
+          "size": 1734592,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM127": {
+      "id": "IM127",
+      "original_relpath": "experiments/experimentD_LBPA_15_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM127",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_15_4h.czi",
+          "size": 1733888,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM128": {
+      "id": "IM128",
+      "original_relpath": "experiments/experimentD_LBPA_16_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM128",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_16_2h.czi",
+          "size": 1734688,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM129": {
+      "id": "IM129",
+      "original_relpath": "experiments/experimentD_LBPA_17_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM129",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_17_2h.czi",
+          "size": 1728224,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM130": {
+      "id": "IM130",
+      "original_relpath": "experiments/experimentD_LBPA_18_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM130",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_18_2h.czi",
+          "size": 1732128,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM131": {
+      "id": "IM131",
+      "original_relpath": "experiments/experimentD_LBPA_19_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM131",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_19_2h.czi",
+          "size": 1733440,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM132": {
+      "id": "IM132",
+      "original_relpath": "experiments/experimentD_LBPA_20_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM132",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_20_2h.czi",
+          "size": 1731200,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM133": {
+      "id": "IM133",
+      "original_relpath": "experiments/experimentD_LBPA_21_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM133",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_21_1h.czi",
+          "size": 1729120,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM134": {
+      "id": "IM134",
+      "original_relpath": "experiments/experimentD_LBPA_22_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM134",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_22_1h.czi",
+          "size": 1729120,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM135": {
+      "id": "IM135",
+      "original_relpath": "experiments/experimentD_LBPA_23_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM135",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_23_1h.czi",
+          "size": 1734336,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM136": {
+      "id": "IM136",
+      "original_relpath": "experiments/experimentD_LBPA_24_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM136",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_24_1h.czi",
+          "size": 1730240,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM137": {
+      "id": "IM137",
+      "original_relpath": "experiments/experimentD_LBPA_25_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM137",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_25_1h.czi",
+          "size": 1733312,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "PDMP",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM138": {
+      "id": "IM138",
+      "original_relpath": "experiments/experimentD_LBPA_26_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM138",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_26_0h.czi",
+          "size": 1730080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM139": {
+      "id": "IM139",
+      "original_relpath": "experiments/experimentD_LBPA_27_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM139",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_27_0h.czi",
+          "size": 1731616,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM140": {
+      "id": "IM140",
+      "original_relpath": "experiments/experimentD_LBPA_28_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM140",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_28_0h.czi",
+          "size": 1726816,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM141": {
+      "id": "IM141",
+      "original_relpath": "experiments/experimentD_LBPA_29_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM141",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_29_0h.czi",
+          "size": 1732128,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM142": {
+      "id": "IM142",
+      "original_relpath": "experiments/experimentD_LBPA_30_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM142",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_LBPA_30_0h.czi",
+          "size": 1728672,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "LBPA",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM143": {
+      "id": "IM143",
+      "original_relpath": "experiments/experimentD_pacSph_01_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM143",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_01_22h.czi",
+          "size": 1812512,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM144": {
+      "id": "IM144",
+      "original_relpath": "experiments/experimentD_pacSph_02_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM144",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_02_22h.czi",
+          "size": 1814336,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM145": {
+      "id": "IM145",
+      "original_relpath": "experiments/experimentD_pacSph_03_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM145",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_03_22h.czi",
+          "size": 1813568,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM146": {
+      "id": "IM146",
+      "original_relpath": "experiments/experimentD_pacSph_04_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM146",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_04_22h.czi",
+          "size": 1813088,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM147": {
+      "id": "IM147",
+      "original_relpath": "experiments/experimentD_pacSph_05_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM147",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_05_22h.czi",
+          "size": 1812352,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM148": {
+      "id": "IM148",
+      "original_relpath": "experiments/experimentD_pacSph_06_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM148",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_06_22h.czi",
+          "size": 1810208,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM149": {
+      "id": "IM149",
+      "original_relpath": "experiments/experimentD_pacSph_07_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM149",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_07_22h.czi",
+          "size": 1812608,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM150": {
+      "id": "IM150",
+      "original_relpath": "experiments/experimentD_pacSph_08_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM150",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_08_22h.czi",
+          "size": 1812512,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM151": {
+      "id": "IM151",
+      "original_relpath": "experiments/experimentD_pacSph_09_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM151",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_09_6h.czi",
+          "size": 1814176,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM152": {
+      "id": "IM152",
+      "original_relpath": "experiments/experimentD_pacSph_10_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM152",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_10_6h.czi",
+          "size": 1810272,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM153": {
+      "id": "IM153",
+      "original_relpath": "experiments/experimentD_pacSph_11_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM153",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_11_6h.czi",
+          "size": 1811200,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM154": {
+      "id": "IM154",
+      "original_relpath": "experiments/experimentD_pacSph_12_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM154",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_12_6h.czi",
+          "size": 1815840,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM155": {
+      "id": "IM155",
+      "original_relpath": "experiments/experimentD_pacSph_13_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM155",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_13_6h.czi",
+          "size": 1819008,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM156": {
+      "id": "IM156",
+      "original_relpath": "experiments/experimentD_pacSph_14_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM156",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_14_4h.czi",
+          "size": 1811648,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM157": {
+      "id": "IM157",
+      "original_relpath": "experiments/experimentD_pacSph_15_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM157",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_15_4h.czi",
+          "size": 1811936,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM158": {
+      "id": "IM158",
+      "original_relpath": "experiments/experimentD_pacSph_16_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM158",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_16_4h.czi",
+          "size": 1809728,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM159": {
+      "id": "IM159",
+      "original_relpath": "experiments/experimentD_pacSph_17_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM159",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_17_4h.czi",
+          "size": 1814368,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM160": {
+      "id": "IM160",
+      "original_relpath": "experiments/experimentD_pacSph_18_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM160",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_18_4h.czi",
+          "size": 1811200,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM161": {
+      "id": "IM161",
+      "original_relpath": "experiments/experimentD_pacSph_19_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM161",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_19_2h.czi",
+          "size": 1812768,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM162": {
+      "id": "IM162",
+      "original_relpath": "experiments/experimentD_pacSph_20_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM162",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_20_2h.czi",
+          "size": 1813184,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM163": {
+      "id": "IM163",
+      "original_relpath": "experiments/experimentD_pacSph_21_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM163",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_21_2h.czi",
+          "size": 1809440,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM164": {
+      "id": "IM164",
+      "original_relpath": "experiments/experimentD_pacSph_22_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM164",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_22_2h.czi",
+          "size": 1812160,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM165": {
+      "id": "IM165",
+      "original_relpath": "experiments/experimentD_pacSph_23_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM165",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_23_2h.czi",
+          "size": 1813280,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM166": {
+      "id": "IM166",
+      "original_relpath": "experiments/experimentD_pacSph_24_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM166",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_24_1h.czi",
+          "size": 1807264,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM167": {
+      "id": "IM167",
+      "original_relpath": "experiments/experimentD_pacSph_25_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM167",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_25_1h.czi",
+          "size": 1806880,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM168": {
+      "id": "IM168",
+      "original_relpath": "experiments/experimentD_pacSph_26_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM168",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_26_1h.czi",
+          "size": 1808192,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM169": {
+      "id": "IM169",
+      "original_relpath": "experiments/experimentD_pacSph_27_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM169",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_27_1h.czi",
+          "size": 1810272,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM170": {
+      "id": "IM170",
+      "original_relpath": "experiments/experimentD_pacSph_28_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM170",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_28_1h.czi",
+          "size": 1808288,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "PDMP",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM171": {
+      "id": "IM171",
+      "original_relpath": "experiments/experimentD_pacSph_44_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM171",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_44_0min.czi",
+          "size": 1805504,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM172": {
+      "id": "IM172",
+      "original_relpath": "experiments/experimentD_pacSph_45_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM172",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_45_0min.czi",
+          "size": 1811264,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM173": {
+      "id": "IM173",
+      "original_relpath": "experiments/experimentD_pacSph_46_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM173",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_46_0min.czi",
+          "size": 1809920,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM174": {
+      "id": "IM174",
+      "original_relpath": "experiments/experimentD_pacSph_47_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM174",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_47_0min.czi",
+          "size": 1810080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM175": {
+      "id": "IM175",
+      "original_relpath": "experiments/experimentD_pacSph_48_0min.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM175",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentD_pacSph_48_0min.czi",
+          "size": 1805568,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "ckick chemistry and IF",
+        "cells": "SGPL1-/-",
+        "labelling": "pacSph",
+        "treatment": "no treatment",
+        "Channel 1": "pacSph",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM176": {
+      "id": "IM176",
+      "original_relpath": "experiments/experimentE_mTOR_01_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM176",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_01_0h.czi",
+          "size": 1721344,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM177": {
+      "id": "IM177",
+      "original_relpath": "experiments/experimentE_mTOR_02_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM177",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_02_0h.czi",
+          "size": 1726272,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM178": {
+      "id": "IM178",
+      "original_relpath": "experiments/experimentE_mTOR_03_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM178",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_03_0h.czi",
+          "size": 1723936,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM179": {
+      "id": "IM179",
+      "original_relpath": "experiments/experimentE_mTOR_04_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM179",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_04_0h.czi",
+          "size": 1722272,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM180": {
+      "id": "IM180",
+      "original_relpath": "experiments/experimentE_mTOR_05_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM180",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_05_0h.czi",
+          "size": 1726080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "0 h"
+      }
+    },
+    "IM181": {
+      "id": "IM181",
+      "original_relpath": "experiments/experimentE_mTOR_06_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM181",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_06_1h.czi",
+          "size": 1723552,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM182": {
+      "id": "IM182",
+      "original_relpath": "experiments/experimentE_mTOR_07_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM182",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_07_1h.czi",
+          "size": 1721920,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM183": {
+      "id": "IM183",
+      "original_relpath": "experiments/experimentE_mTOR_08_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM183",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_08_1h.czi",
+          "size": 1724992,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM184": {
+      "id": "IM184",
+      "original_relpath": "experiments/experimentE_mTOR_09_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM184",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_09_1h.czi",
+          "size": 1726432,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM185": {
+      "id": "IM185",
+      "original_relpath": "experiments/experimentE_mTOR_10_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM185",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_10_1h.czi",
+          "size": 1721280,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "1 h"
+      }
+    },
+    "IM186": {
+      "id": "IM186",
+      "original_relpath": "experiments/experimentE_mTOR_11_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM186",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_11_2h.czi",
+          "size": 1726880,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM187": {
+      "id": "IM187",
+      "original_relpath": "experiments/experimentE_mTOR_12_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM187",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_12_2h.czi",
+          "size": 1728320,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM188": {
+      "id": "IM188",
+      "original_relpath": "experiments/experimentE_mTOR_13_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM188",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_13_2h.czi",
+          "size": 1723680,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM189": {
+      "id": "IM189",
+      "original_relpath": "experiments/experimentE_mTOR_14_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM189",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_14_2h.czi",
+          "size": 1726368,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM190": {
+      "id": "IM190",
+      "original_relpath": "experiments/experimentE_mTOR_15_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM190",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_15_2h.czi",
+          "size": 1722848,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "2 h"
+      }
+    },
+    "IM191": {
+      "id": "IM191",
+      "original_relpath": "experiments/experimentE_mTOR_16_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM191",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_16_4h.czi",
+          "size": 1725248,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM192": {
+      "id": "IM192",
+      "original_relpath": "experiments/experimentE_mTOR_17_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM192",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_17_4h.czi",
+          "size": 1725376,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM193": {
+      "id": "IM193",
+      "original_relpath": "experiments/experimentE_mTOR_18_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM193",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_18_4h.czi",
+          "size": 1727264,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM194": {
+      "id": "IM194",
+      "original_relpath": "experiments/experimentE_mTOR_19_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM194",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_19_4h.czi",
+          "size": 1724768,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM195": {
+      "id": "IM195",
+      "original_relpath": "experiments/experimentE_mTOR_20_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM195",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_20_4h.czi",
+          "size": 1724992,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "4 h"
+      }
+    },
+    "IM196": {
+      "id": "IM196",
+      "original_relpath": "experiments/experimentE_mTOR_21_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM196",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_21_6h.czi",
+          "size": 1725536,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM197": {
+      "id": "IM197",
+      "original_relpath": "experiments/experimentE_mTOR_22_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM197",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_22_6h.czi",
+          "size": 1724576,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM198": {
+      "id": "IM198",
+      "original_relpath": "experiments/experimentE_mTOR_23_6h.czi",
+      "dimensions": "(1, 2, 1, 512, 512)",
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM198",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_23_6h.czi",
+          "size": 1723968,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM198",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM198/IM198.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM199": {
+      "id": "IM199",
+      "original_relpath": "experiments/experimentE_mTOR_24_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM199",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_24_6h.czi",
+          "size": 1724128,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM200": {
+      "id": "IM200",
+      "original_relpath": "experiments/experimentE_mTOR_25_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM200",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_25_6h.czi",
+          "size": 1722912,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        },
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM200",
+          "uri": "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD144/IM200/IM200.zarr/0",
+          "size": 0,
+          "type": "ome_ngff",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "6 h"
+      }
+    },
+    "IM201": {
+      "id": "IM201",
+      "original_relpath": "experiments/experimentE_mTOR_26_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM201",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_26_22h.czi",
+          "size": 1722720,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM202": {
+      "id": "IM202",
+      "original_relpath": "experiments/experimentE_mTOR_27_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM202",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_27_22h.czi",
+          "size": 1723104,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM203": {
+      "id": "IM203",
+      "original_relpath": "experiments/experimentE_mTOR_28_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM203",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_28_22h.czi",
+          "size": 1718144,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM204": {
+      "id": "IM204",
+      "original_relpath": "experiments/experimentE_mTOR_29_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM204",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_29_22h.czi",
+          "size": 1726432,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM205": {
+      "id": "IM205",
+      "original_relpath": "experiments/experimentE_mTOR_30_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM205",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_mTOR_30_22h.czi",
+          "size": 1722272,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "mTOR",
+        "Channel 2": "Lamp1",
+        "timepoint": "22 h"
+      }
+    },
+    "IM206": {
+      "id": "IM206",
+      "original_relpath": "experiments/experimentE_TFEB_01_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM206",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_01_0h.czi",
+          "size": 1692768,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "0 h"
+      }
+    },
+    "IM207": {
+      "id": "IM207",
+      "original_relpath": "experiments/experimentE_TFEB_02_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM207",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_02_0h.czi",
+          "size": 1689024,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "0 h"
+      }
+    },
+    "IM208": {
+      "id": "IM208",
+      "original_relpath": "experiments/experimentE_TFEB_03_0h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM208",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_03_0h.czi",
+          "size": 1686464,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "no treatment",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "0 h"
+      }
+    },
+    "IM209": {
+      "id": "IM209",
+      "original_relpath": "experiments/experimentE_TFEB_04_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM209",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_04_1h.czi",
+          "size": 1689792,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "1 h"
+      }
+    },
+    "IM210": {
+      "id": "IM210",
+      "original_relpath": "experiments/experimentE_TFEB_05_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM210",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_05_1h.czi",
+          "size": 1684064,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "1 h"
+      }
+    },
+    "IM211": {
+      "id": "IM211",
+      "original_relpath": "experiments/experimentE_TFEB_06_1h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM211",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_06_1h.czi",
+          "size": 1688000,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "1 h"
+      }
+    },
+    "IM212": {
+      "id": "IM212",
+      "original_relpath": "experiments/experimentE_TFEB_07_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM212",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_07_2h.czi",
+          "size": 1679680,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "2 h"
+      }
+    },
+    "IM213": {
+      "id": "IM213",
+      "original_relpath": "experiments/experimentE_TFEB_08_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM213",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_08_2h.czi",
+          "size": 1679680,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "2 h"
+      }
+    },
+    "IM214": {
+      "id": "IM214",
+      "original_relpath": "experiments/experimentE_TFEB_09_2h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM214",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_09_2h.czi",
+          "size": 1685280,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "2 h"
+      }
+    },
+    "IM215": {
+      "id": "IM215",
+      "original_relpath": "experiments/experimentE_TFEB_10_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM215",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_10_4h.czi",
+          "size": 1686400,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "4 h"
+      }
+    },
+    "IM216": {
+      "id": "IM216",
+      "original_relpath": "experiments/experimentE_TFEB_11_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM216",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_11_4h.czi",
+          "size": 1682080,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "4 h"
+      }
+    },
+    "IM217": {
+      "id": "IM217",
+      "original_relpath": "experiments/experimentE_TFEB_12_4h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM217",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_12_4h.czi",
+          "size": 1687616,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "4 h"
+      }
+    },
+    "IM218": {
+      "id": "IM218",
+      "original_relpath": "experiments/experimentE_TFEB_13_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM218",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_13_6h.czi",
+          "size": 1692352,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "6 h"
+      }
+    },
+    "IM219": {
+      "id": "IM219",
+      "original_relpath": "experiments/experimentE_TFEB_14_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM219",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_14_6h.czi",
+          "size": 1686176,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "6 h"
+      }
+    },
+    "IM220": {
+      "id": "IM220",
+      "original_relpath": "experiments/experimentE_TFEB_15_6h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM220",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_15_6h.czi",
+          "size": 1689920,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "6 h"
+      }
+    },
+    "IM221": {
+      "id": "IM221",
+      "original_relpath": "experiments/experimentE_TFEB_16_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM221",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_16_22h.czi",
+          "size": 1689376,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "22 h"
+      }
+    },
+    "IM222": {
+      "id": "IM222",
+      "original_relpath": "experiments/experimentE_TFEB_17_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM222",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_17_22h.czi",
+          "size": 1691392,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "22 h"
+      }
+    },
+    "IM223": {
+      "id": "IM223",
+      "original_relpath": "experiments/experimentE_TFEB_18_22h.czi",
+      "dimensions": null,
+      "representations": [
+        {
+          "accession_id": "S-BIAD144",
+          "image_id": "IM223",
+          "uri": "https://www.ebi.ac.uk/biostudies/files/S-BIAD144/experiments/experimentE_TFEB_18_22h.czi",
+          "size": 1683712,
+          "type": "fire_object",
+          "dimensions": null,
+          "attributes": null
+        }
+      ],
+      "attributes": {
+        "staining": "IF",
+        "cells": "WT",
+        "labelling": "no labelling",
+        "treatment": "20 \u00b5M PDMP",
+        "Channel 1": "DAPI",
+        "Channel 2": "TFEB",
+        "timepoint": "22 h"
+      }
+    }
+  },
+  "archive_files": {},
+  "other_files": {},
+  "tags": [
+    "2D",
+    "Channels"
+  ]
+}
