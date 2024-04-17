@@ -63,6 +63,16 @@ class ImageRepresentationType(enum.Enum):
     OME_NGFF = "ome_ngff"
     OME_ZARR_ZIPPED = "zipped_zarr"
 
+class BIACollection(api_models.BIACollection, ReprHtmlMixin):
+    @classmethod
+    def get_all(cls) -> Iterator[BIACollection]:
+        for collection in ApiClient.all_collections():
+            yield collection
+    
+    @classmethod
+    def get_by_name(cls, collection_name: str) -> Optional[BIACollection]:
+        return ApiClient.get_collection(collection_name)
+
 class BIAStudy(api_models.BIAStudy, ReprHtmlMixin):
     @classmethod
     def get_all(cls) -> Iterator[BIAStudy]:
@@ -214,6 +224,21 @@ class ApiClient:
 
                 last_study_uuid = study.uuid
                 yield study
+
+    @classmethod
+    def all_collections(cls) -> Iterator[BIACollection]:
+        return cls.client.search_collections()
+    
+    @classmethod
+    def get_collection(cls, collection_name: str) -> Optional[BIACollection]:
+        matches = cls.client.search_collections(collection_name)
+        if len(matches) == 0:
+            return None
+        elif len(matches) == 1:
+            return matches[0]
+        else:
+            raise Exception("Unexpected multiple collections with the same name")
+
     
     @classmethod
     def study_by_accession(cls, accession_id: str) -> Optional[BIAStudy]:
