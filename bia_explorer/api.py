@@ -145,6 +145,15 @@ class FileReference(api_models.FileReference, ReprHtmlMixin):
     def get_study(self) -> BIAStudy:
         return ApiClient.get_study_by_uuid(self.study_uuid)
 
+class ImageAcquisition(api_models.ImageAcquisition, ReprHtmlMixin):
+    pass
+
+class Biosample(api_models.Biosample, ReprHtmlMixin):
+    pass
+
+class Specimen(api_models.Specimen, ReprHtmlMixin):
+    pass
+
 class Biosample(api_models.Biosample, ReprHtmlMixin):
     pass
 
