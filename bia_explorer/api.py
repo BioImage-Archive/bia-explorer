@@ -17,6 +17,12 @@ import zarr
 import numpy as np
 
 class ReprHtmlMixin(BaseModel):
+    def repr_html_embed_image(self) -> Optional[str]:
+        """
+        Override by children that support sample images (e.g. representative image, or thumbnail) 
+        """
+        return 
+
     def _repr_html_(self) -> str:
         def primitive_to_html(item):
             if isinstance(item, list):
@@ -47,7 +53,10 @@ class ReprHtmlMixin(BaseModel):
             dict_html += "</table>"
             return dict_html
 
-        html = f"<table>{ primitive_to_html(self.dict()) }</table>"
+        html = ""
+        if self.repr_html_embed_image():
+            html += f"<img src=\"{self.repr_html_embed_image()}\" width=512 height=512 style=\"display: block; margin: auto\">"
+        html += f"<table>{ primitive_to_html(self.dict()) }</table>"
         return html
 
 class ImageRepresentationType(enum.Enum):
@@ -63,6 +72,18 @@ class BIAStudy(api_models.BIAStudy, ReprHtmlMixin):
     @classmethod
     def get_by_accession(cls, accession_id: str) -> Optional[BIAStudy]:
         return ApiClient.study_by_accession(accession_id)
+
+    def repr_html_embed_image(self) -> Optional[str]:
+        example_image_annotation = [
+            annotation
+            for annotation in self.annotations
+            if annotation.key == 'example_image_uri'
+        ]
+        if not len(example_image_annotation):
+            return
+        
+        example_image_annotation = example_image_annotation.pop()
+        return example_image_annotation.value
 
     def get_images(self) -> Iterator[BIAImage]:
         for img in ApiClient.get_study_images(study_uuid = self.uuid):
@@ -93,6 +114,19 @@ class BIAStudy(api_models.BIAStudy, ReprHtmlMixin):
 class BIAImage(api_models.BIAImage, ReprHtmlMixin):
     def get_study(self) -> BIAStudy:
         return ApiClient.get_study_by_uuid(self.study_uuid)
+
+    def repr_html_embed_image(self) -> Optional[str]:
+        example_image_annotation = [
+            annotation
+            for annotation in self.annotations
+            if annotation.key == 'example_image_uri'
+        ]
+        if not len(example_image_annotation):
+            return
+        
+        example_image_annotation = example_image_annotation.pop()
+        return example_image_annotation.value
+
 
 class ImageSlice(BaseModel):
     c: Optional[int] = None
