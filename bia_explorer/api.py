@@ -73,6 +73,10 @@ class BIACollection(api_models.BIACollection, ReprHtmlMixin):
     def get_by_name(cls, collection_name: str) -> Optional[BIACollection]:
         return ApiClient.get_collection(collection_name)
 
+    def get_studies(self) -> Iterator[BIAStudy]:
+        for study_uuid in self.study_uuids:
+            yield ApiClient.get_study_by_uuid(study_uuid)
+
 class BIAStudy(api_models.BIAStudy, ReprHtmlMixin):
     @classmethod
     def get_all(cls) -> Iterator[BIAStudy]:
