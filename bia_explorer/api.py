@@ -7,7 +7,7 @@ from bia_integrator_api.util import get_client
 import bia_integrator_api.models as api_models
 
 from collections.abc import Iterator
-from typing import Optional
+from typing import Optional, List
 from pydantic import BaseModel
 
 import matplotlib.pyplot as plt
@@ -226,8 +226,12 @@ class ApiClient:
                 yield study
 
     @classmethod
-    def all_collections(cls) -> Iterator[BIACollection]:
-        return cls.client.search_collections()
+    def all_collections(cls) -> List[BIACollection]:
+        collections = [
+            BIACollection(**collection.dict())
+            for collection in cls.client.search_collections()
+        ]
+        return collections
     
     @classmethod
     def get_collection(cls, collection_name: str) -> Optional[BIACollection]:
@@ -235,7 +239,7 @@ class ApiClient:
         if len(matches) == 0:
             return None
         elif len(matches) == 1:
-            return matches[0]
+            return BIACollection(**matches[0].dict())
         else:
             raise Exception("Unexpected multiple collections with the same name")
 
