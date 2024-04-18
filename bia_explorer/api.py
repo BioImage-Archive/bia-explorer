@@ -1,6 +1,9 @@
 from __future__ import annotations
 from pydantic import BaseModel
 import enum
+from io import BytesIO
+import requests
+from PIL import Image
 
 from bia_integrator_api import PublicApi
 from bia_integrator_api.util import get_client
@@ -103,6 +106,10 @@ class BIAStudy(api_models.BIAStudy, ReprHtmlMixin):
         for img in ApiClient.get_study_images(study_uuid = self.uuid):
             yield img
     
+    def get_file_references(self) -> Iterator[FileReference]:
+        for fileref in ApiClient.get_study_file_references(study_uuid=self.uuid):
+            yield fileref
+    
     def get_image_by_alias(self, alias) -> Optional[BIAImage]:
         """
         @TODO: Remove because aliases are deprecated?
@@ -126,6 +133,14 @@ class BIAStudy(api_models.BIAStudy, ReprHtmlMixin):
             yield fileref
 
 class BIAImage(api_models.BIAImage, ReprHtmlMixin):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.representations = [
+            BIAImageRepresentation(**representation.dict())
+            for representation in self.representations
+        ]
+
     def get_study(self) -> BIAStudy:
         return ApiClient.get_study_by_uuid(self.study_uuid)
 
@@ -165,6 +180,19 @@ class BIAImageRepresentation(api_models.BIAImageRepresentation, ReprHtmlMixin):
 
     def zipped_zarr_to_dask_array(self):
         raise Exception("TODO")
+
+    def to_bytesio(self, max_size_bytes = 100000000) -> BytesIO:
+        # Always check size first
+        file_size = requests.get(self.uri[0], stream=True).headers['Content-length']
+        file_size = int(file_size)
+        if max_size_bytes and file_size > max_size_bytes:
+            raise Exception(f"File size {file_size} over the maximum limit of {max_size_bytes}. Pass a higher max_size_bytes (or None to disable) if your machine has enough memory")
+
+        data_request = requests.get(self.uri[0])
+        assert data_request.status_code == 200
+
+        img = BytesIO(data_request.content)
+        return Image.open(img)
 
     def to_dask_array(self):
         if self.type == ImageRepresentationType.OME_NGFF.value:
@@ -282,7 +310,6 @@ class ApiClient:
     @classmethod
     def get_study_image_by_alias(cls, accession_id, alias) -> Optional[BIAImage]:
         images = cls.client.get_study_images_by_alias(study_accession=accession_id, aliases=[alias])
-        print(images)
         if len(images):
             img = images[0]
             img = BIAImage(**img.dict())
