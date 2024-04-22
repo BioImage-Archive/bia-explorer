@@ -258,7 +258,10 @@ class ApiClient:
         while fetched_any:
             fetched_any = False
 
-            for study in cls.client.search_studies_exact_match(start_uuid=last_study_uuid, limit=cls.batch_size):
+            for study in cls.client.search_studies_exact_match(search_study_filter=api_models.SearchStudyFilter(
+                start_uuid=last_study_uuid,
+                limit = cls.batch_size
+            )):
                 fetched_any = True
 
                 last_study_uuid = study.uuid
@@ -288,7 +291,8 @@ class ApiClient:
         study_filter = api_models.SearchStudyFilter(
             study_match = api_models.SearchStudy(
                 accession_id=accession_id
-            )
+            ),
+            limit=1
         )
         results = cls.client.search_studies_exact_match(search_study_filter=study_filter)
 
