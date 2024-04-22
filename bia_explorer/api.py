@@ -18,6 +18,8 @@ import matplotlib.pyplot as plt
 import dask.array as da
 import zarr
 import numpy as np
+from ome_zarr.io import parse_url
+from ome_zarr.reader import Reader
 
 class ReprHtmlMixin(BaseModel):
     def repr_html_embed_image(self) -> Optional[str]:
@@ -173,10 +175,15 @@ class BIAImageRepresentation(api_models.BIAImageRepresentation, ReprHtmlMixin):
     ! No representation-image link
     """
     def ome_ngff_to_dask_array(self):
-        zgroup = zarr.open(self.uri[0])
-        zarray = zgroup['0']    
+        zgroup = zarr.open(self.uri[0], mode='r')
+        zarray = zgroup['0']
 
         return da.from_zarr(zarray)
+
+    def to_ome_zarr(self):
+        reader = Reader(parse_url(self.uri[0]))
+        
+        return reader
 
     def zipped_zarr_to_dask_array(self):
         raise Exception("TODO")

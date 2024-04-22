@@ -20,6 +20,7 @@ jupyter = "^1.0.0"
 #   useful to bound to make poetry install faster
 aiobotocore = "^2.0.0"
 s3fs = "^2024.0.0"
+ome-zarr = "^0.8.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
