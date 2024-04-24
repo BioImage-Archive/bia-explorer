@@ -167,7 +167,11 @@ class ImageSlice(BaseModel):
     t: Optional[int] = None
 
     def as_tuple(self):
-        # ?!
+        """
+        For numpy array slices from ImageSlice instances.
+        Keep in mind that this *doesn't include any notion of data dimensions*,
+            it just maps a human-friendly way of expressing slices into a fixed-order tuple, independent of the dimension order in the actual data
+        """
         return (self.c, self.z, self.t)
         
 class BIAImageRepresentation(api_models.BIAImageRepresentation, ReprHtmlMixin):
