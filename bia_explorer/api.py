@@ -224,6 +224,10 @@ class BIAImageRepresentation(api_models.BIAImageRepresentation, ReprHtmlMixin):
         if len(np.shape(slice_to_display)) != 2:
             raise Exception(f"Unable to display slice of shape {np.shape(slice_to_display)}. xy plane required")
 
+        max_dimension_size = 5000
+        if np.shape(slice_to_display)[0] > max_dimension_size or np.shape(slice_to_display)[1] > max_dimension_size:
+            raise Exception(f"Trying to display a {np.shape(slice_to_display)} plane. Consider manual data manipulation and rendering for planes larger than ({max_dimension_size}, {max_dimension_size})")
+
         plt.imshow(slice_to_display, cmap='gray')
         plt.axis('off')
         plt.show()
