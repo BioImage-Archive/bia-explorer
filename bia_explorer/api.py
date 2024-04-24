@@ -20,6 +20,28 @@ from ome_zarr.io import parse_url
 from ome_zarr.reader import Reader
 
 class ReprHtmlMixin(BaseModel):
+    _include_fields: List[str] = [
+        "context",
+        "uuid",
+        "title",
+        "description",
+        "authors",
+        "name",
+        "organism",
+        "release_date",
+        "accession_id",
+        "imaging_type",
+        "file_references_count",
+        "images_count",
+        "study_uuid",
+        "original_relpath",
+        "dimensions",
+        "representations",
+        "uri",
+        "size",
+        "type"
+    ]
+
     def repr_html_embed_image(self) -> Optional[str]:
         """
         Override by children that support sample images (e.g. representative image, or thumbnail) 
@@ -48,6 +70,9 @@ class ReprHtmlMixin(BaseModel):
             dict_html = "<table>"
             
             for k, v in obj_comp.items():
+                if k not in self._include_fields:
+                    continue
+
                 dict_html += "<tr>"
                 dict_html += f"<td>{k}</td>"
                 dict_html += f"<td>{primitive_to_html(v)}</td>"
