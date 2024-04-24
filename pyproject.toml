@@ -14,7 +14,6 @@ Pillow = "^9.3.0"
 bia-integrator-api = "^0.2.0"
 dask = "^2024.4.1"
 zarr = "^2.17.2"
-matplotlib = "^3.8.4"
 jupyter = "^1.0.0"
 ome-zarr = "^0.8.3"
 # Transitive dependeices from upstream projects,

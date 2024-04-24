@@ -13,8 +13,6 @@ from collections.abc import Iterator
 from typing import Optional, List
 from pydantic import BaseModel
 
-import matplotlib.pyplot as plt
-
 import dask.array as da
 import zarr
 import numpy as np
@@ -203,7 +201,7 @@ class BIAImageRepresentation(api_models.BIAImageRepresentation, ReprHtmlMixin):
         assert data_request.status_code == 200
 
         img = BytesIO(data_request.content)
-        return Image.open(img)
+        return img
 
     def to_dask_array(self):
         if self.type == ImageRepresentationType.OME_NGFF.value:
@@ -213,7 +211,7 @@ class BIAImageRepresentation(api_models.BIAImageRepresentation, ReprHtmlMixin):
         else:
             raise Exception(f"No automatic display supported for representation of type {self.type} at '{self.uri[0]}'")
 
-    def pyplot_display_slice(self, image_slice: Optional[ImageSlice] = None):
+    def get_slice_image(self, image_slice: Optional[ImageSlice] = None, img_h = 512, img_w = None) -> Image:
         if image_slice is None:
             # @TODO: Make "default slice" some function of the actual darray 
             image_slice = ImageSlice(c=0,t=0,z=0)
@@ -222,15 +220,26 @@ class BIAImageRepresentation(api_models.BIAImageRepresentation, ReprHtmlMixin):
         img_as_darray = self.to_dask_array()
         slice_to_display = img_as_darray[slice_tuple].compute()
         if len(np.shape(slice_to_display)) != 2:
+            # This also guarantees all images are greyscale (they probably aren't in practice)
             raise Exception(f"Unable to display slice of shape {np.shape(slice_to_display)}. xy plane required")
 
         max_dimension_size = 5000
         if np.shape(slice_to_display)[0] > max_dimension_size or np.shape(slice_to_display)[1] > max_dimension_size:
             raise Exception(f"Trying to display a {np.shape(slice_to_display)} plane. Consider manual data manipulation and rendering for planes larger than ({max_dimension_size}, {max_dimension_size})")
 
-        plt.imshow(slice_to_display, cmap='gray')
-        plt.axis('off')
-        plt.show()
+        # len(np.shape(slice_to_display)) == 2 -> greyscale
+        img = Image.fromarray(slice_to_display, 'L')
+        if not img_h and not img_w:
+            # no resizing
+            return img
+        else:
+            # if any target dimension is None, keep aspect ratio
+            if not img_w:
+                img_w = img.height*img_h // img.width
+            if not img_h:
+                img_h = img.width*img_w // img.height
+
+            return img.resize((img_h, img_w))
 
 class FileReference(api_models.FileReference, ReprHtmlMixin):
     def get_study(self) -> BIAStudy:
