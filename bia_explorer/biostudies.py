@@ -102,6 +102,13 @@ class Submission(BaseModel):
 
         return tsv_rep
 
+    def _repr_html_(self):
+        study_dict = attributes_to_dict(self.section.attributes)
+
+        attribute_html = ['<tr><td><b>{}</b></td><td style="text-align:left">{}</td></tr>'.format(k, v) for k, v in
+                          study_dict.items()]
+
+        return '<table>{}</table>'.format("".join(attribute_html))
 
 # File List
 
